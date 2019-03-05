@@ -1,0 +1,68 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+.header {
+    background-color: transparent;
+    margin-top: 2px;
+    margin-left: 10px;
+    height: 150px;
+    width: 500px;;
+    position: fixed;
+    display: block;
+    z-index: 1000;
+
+    .font {
+        font-family: 'Fredericka the Great', cursive;
+        color: rgb(116, 113, 113);
+        font-weight: 400;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+
+    .btn {
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+  
+  `#search {  
+    width: 450px;
+    height: 250px;
+    
+    
+  }
+    #country-name {
+        margin-left: 20px;
+    }
+}
+
+main {
+    margin: 250px;
+    margin-left: 30px;
+    display: block;
+    position: absolute;
+    width: 100%;
+    padding: 40px;
+
+    .fonttwo {
+        font-family: 'Marmelad', sans-serif;
+        color: rgb(212, 204, 204);
+        font-weight: 200;
+    }
+
+    li {
+        list-style: none;
+        font-family: 'Marmelad', sans-serif;
+        color: rgb(212, 204, 204);
+        
+    }
+}
+
+::placeholder {
+    color: white;
+}
